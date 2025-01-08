@@ -1,0 +1,21 @@
+{
+    "editor.fontFamily": "Andale Mono",
+    "editor.fontSize": 16,
+    "editor.tabSize": 2,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "explicit"
+    },
+    "editor.foldingImportsByDefault": false,
+    "terminal.integrated.fontFamily": "Andale Mono",
+    "terminal.integrated.fontSize": 16,
+    "files.insertFinalNewline": true,
+    "workbench.editor.enablePreview": false,
+    "workbench.list.openMode": "doubleClick",
+    "workbench.tree.expandMode": "doubleClick",
+    "files.enableTrash": false,
+    "typescript.tsserver.experimental.enableProjectDiagnostics": false,
+    "task.allowAutomaticTasks": "on",
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "jest.runMode": "on-demand"
+}

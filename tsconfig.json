@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "esModuleInterop": true,
+    "target": "ESNext",
+    "moduleResolution": "Node",
+    "removeComments": true,
+    "outDir": "./dist",
+    "rootDir": "./",
+    "strict": true,
+    "strictNullChecks": true,
+    "useUnknownInCatchVariables": false,
+    "noImplicitAny": true,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "skipLibCheck": true
+  },
+  "exclude": [
+    "jest.setup.ts",
+    "app/unit-test-tools",
+    "node_modules"
+  ]
+}

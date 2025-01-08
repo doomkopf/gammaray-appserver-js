@@ -1,0 +1,10 @@
+{
+  "name": "gammaray-app",
+  "version": "1.1.1",
+  "description": "The SDK for an application of the Gammaray application server",
+  "author": "gammarayapp",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.3.2"
+  }
+}

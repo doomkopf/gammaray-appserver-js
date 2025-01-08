@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hazelcast xmlns="http://www.hazelcast.com/schema/config"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.hazelcast.com/schema/config
+           http://www.hazelcast.com/schema/config/hazelcast-config-4.2.xsd">
+
+    <cluster-name>gammaray</cluster-name>
+
+    <network>
+        <port auto-increment="true" port-count="100">5001</port>
+    </network>
+
+    <map name="default">
+        <in-memory-format>BINARY</in-memory-format>
+        <backup-count>0</backup-count>
+        <async-backup-count>1</async-backup-count>
+        <time-to-live-seconds>0</time-to-live-seconds>
+        <max-idle-seconds>0</max-idle-seconds>
+        <eviction eviction-policy="LRU" max-size-policy="USED_HEAP_PERCENTAGE" size="80"/>
+    </map>
+
+    <map name="hz-im-db">
+        <in-memory-format>BINARY</in-memory-format>
+        <backup-count>0</backup-count>
+        <async-backup-count>1</async-backup-count>
+        <time-to-live-seconds>0</time-to-live-seconds>
+        <max-idle-seconds>0</max-idle-seconds>
+    </map>
+
+</hazelcast>
